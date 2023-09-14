@@ -1,0 +1,249 @@
+  198  Host *.github.com\n  AddKeysToAgent yes\n  UseKeychain yes\n  IdentityFile ~/.ssh/id_ed25519
+  203  git@github.com:porterjenkins/CS180.git
+  204  git clone git@github.com:porterjenkins/CS180.git
+  218  git clone https://github.com/porterjenkins/CS180.git
+  228  git clone https://github.com/porterjenkins/CS180.git
+  318  git pull
+  344  git pull
+  367  git pull
+  386  git pull
+  388  git pull
+  428  git pull
+  474  git pull
+  480  git pull
+  500  git pull
+  503  git pull
+  510  git pull
+  513  git pull
+  516  git pull
+  519  git pull
+  642  git --version
+  643  git update
+  644  git update-ref
+  645  brew upgrade git
+  646  brew upgrade git
+  647  git --version
+  648  brew install git
+  649  git --version
+  650  brew update git
+  651  brew upgradee git
+  652  brew upgrade git
+  653  brew git --version
+  654  git --version
+  663  git clone https://github.com/BYU-CS-236-Classroom/project-0-Orion00.git
+  667  git clone https://github.com/BYU-CS-236-Classroom/project-0-Orion00.git
+  679  git add .
+  680  git commit -m "Passoff Project 0"
+  681  git config --global user.email "orionbowers@gmail.com"
+  682  git config --global user.name "Orion Bowers"
+  683  git commit -m "Passoff Project 0"
+  684  git push
+  687  git clone git@github.com:BYU-CS-236/jupyter-notebook-tutorials.git
+  692  git config --global core.editor "code --wait"
+  693  git config --global init.defaultBranch main
+  694  git config --list
+  699  mkdir git_practice
+  703  git status
+  704  git init
+  706  git status
+  707  rm -rf .git/
+  710  cd git_practice
+  715  git status
+  720  git init
+  722  git status
+  723  git add file1.txt
+  724  git status
+  726  git commit -m 'created file1.txt'
+  727  git status
+  728  git log
+  730  git add file1.txt
+  732  git status
+  733  git add file2.txt
+  734  git status
+  735  git commit -m "Added content to text files"
+  736  git status
+  737  git log
+  738  git log --oneline
+  753  cd git_practice
+  754  git status
+  755  git branch
+  756  git branch new_feature
+  757  git branch
+  758  git switch new_feature
+  759  git branch
+  761  git add .
+  762  git commit -m "create feature file"
+  763  git status
+  764  git log
+  765  git log --oneline
+  766  git switch main
+  767  git log --oneline
+  768  git branch
+  769  git merge new_feature
+  770  git log --oneline
+  771  git branch -d new_feature
+  772  git remote
+  773  git remote add origin git@github.com:Orion00/git_practice-Orion00.git
+  774  git status
+  775  git remote
+  776  git remote -v
+  777  git push -u origin main
+  783  git status
+  784  git add .
+  785  git status
+  786  git commit -m "create new files"
+  787  git status
+  788  git log
+  789  git status
+  790  git add file_1.txt
+  791  git status
+  792  git commit -m "update file_1"
+  793  git status
+  794  git add file_2.txt
+  795  git commit -m "update file_2"
+  796  git log
+  801  cd Documents/Stat386/git_practice
+  804  git add .
+  805  git status
+  806  git commit -m "Add Readme"
+  807  touch .gitignore
+  809  git status
+  811  git add .gitignore
+  812  git commit -m "add gitignore"
+  814  git status
+  815  git status
+  816  git branch features
+  817  git switch features
+  818  git log
+  820  git commit -a -m "Add empty file"
+  821  git add new_features.txt
+  822  git commit -m "Add empty file"
+  823  git commit -m "Update features file"
+  824  git add .
+  825  git commit -m "Update features file"
+  826  git switch main
+  827  git add .
+  828  git commit -m "Update File_1"
+  829  git merge features
+  830  git merge features
+  831  git log --oneline
+  832  git commit -m "Merge features in"
+  833  git log --oneline
+  834  git add .
+  835  git commit -m "Cancel new features promotion. Too expensive"
+  836  git switch features
+  837  git switch main
+  838  git add .
+  839  git commit -m "Editing new_features file"
+  840  git switch main
+  841  git merge features
+  842  git status
+  843  git status
+  844  git add .
+  845  git commit -m "Resolve a merge with features where new_features needed fixing"
+  846  git status
+  847  git log --oneline
+  848  git branch
+  849  git branch -d features
+  850  git push
+  851  git add .
+  852  git commit -m "Fix Readme to actually be bold"
+  853  git push
+  883  git --version
+  886  git init
+  889  git status
+  890   git add .
+  891  git status
+  892  git commit -m "initial draft"
+  893  git status
+  895  git commit -am "changed greeting to match present mood"
+  896  git log
+  897  git checkout dbc
+  898  git checkout dbc7c837
+  900  git checkout master
+  901  git checkout main
+  902  git diff head head~1
+  903  git branch A
+  904  git switch A
+  905  git switch main
+  906  git merge A
+  907  git switch A
+  908  git status
+  915  git status
+  916  git clone url https://github.com/Orion00/startup.git
+  917  git clone https://github.com/Orion00/startup.git
+  924  git status
+  925  git add .
+  926  git status
+  927  git commit -m "First commit, create conflictTest"
+  928  git push
+  929  git pull
+  932  git status
+  933  git add .
+  934  git commit -m "Update conflictTest the right way"
+  935  git status
+  936  git pull
+  937  git pull
+  938  git status
+  939  git push
+  940  git pull
+  946  git status
+  947  git add .
+  948  git status
+  949  git pull
+  950  git push
+  951  git log
+  952  git checkout 096b6daf2cbc2105dcdbeb427a5a11624d8ace79
+  953  git status
+  954  git reset 096b6daf2cbc2105dcdbeb427a5a11624d8ace79
+  955  git status
+  956  git log
+  957  git switch -
+  958  git status
+  959  git branch
+  960  git revert 096b6daf2cbc2105dcdbeb427a5a11624d8ace79
+  961  git revert --abort
+  962  git status
+  963  git pull
+  964  git config pull.rebase false
+  965  git status
+  966  git pull
+  967  git add .
+  968  git commit -m "Fixed two alternate timelines"
+  969  git push
+  971  git commit -ma "Create notes.md"
+  972  git commit -am "Create notes.md"
+  973  git status
+  974   git add .
+  975  git status
+  976  git commit -m "Add notes.md"
+  977  git push
+  978  git pull
+  980  cd Documents/Stat386/git_practice
+  982  git status -a
+  983  git status -v
+  984  git branch -v
+  985  git branch
+  986  git branch -a
+  991  git logg --oneline
+  992  git log --oneline
+  993  history | grep git 
+  994  history | grep git > history.txt
+  998  git clone url https://github.com/Orion00/git_practice-collinscd23.git
+  999  git clone https://github.com/Orion00/git_practice-collinscd23.git
+ 1001  git add .
+ 1002  git commit -m "Add new features list"
+ 1003  git push
+ 1004  git branch feature-Orion
+ 1005  git switch feature-Orion
+ 1006  git add .
+ 1007  git commit -m "Add one more feature"
+ 1008  git push
+ 1009  git push origin feature-Orion
+ 1010  git branch
+ 1011  git log --oneline > gitlog.txt
+ 1012  git status
+ 1013  git status
+ 1014  cd git_practice/
+ 1015  git status
+ 1016  git log --oneline > gitlog.txt

@@ -1,0 +1,17 @@
+a0ad4e1 Add another new file
+70e23eb Fix Readme to actually be bold
+6ce989c Resolve a merge with features where new_features needed fixing
+a349309 Editing new_features file
+68aeeeb Cancel new features promotion. Too expensive
+f9ed830 Merge features in
+4d00a78 Update File_1
+ab8aee8 Update features file
+73e56e6 Add empty file
+7c8e803 add gitignore
+76362b9 Add Readme
+ea1edca update file_2
+740d541 update file_1
+172ddfe create new files
+97d3969 create feature file
+5cd4b07 Added content to text files
+1595824 created file1.txt
