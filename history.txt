@@ -247,3 +247,8 @@
  1014  cd git_practice/
  1015  git status
  1016  git log --oneline > gitlog.txt
+ 1017   history 0 | grep git > history.txt
+ 1018  git pull
+ 1019  git push
+ 1020  git pull
+ 1021  git log --oneline > gitlog.txt

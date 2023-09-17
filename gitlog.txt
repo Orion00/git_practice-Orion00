@@ -1,3 +1,8 @@
+6bbfd9e Merge pull request #2 from jbfish00/feature-jbfish00
+36e028c Merge pull request #1 from MattLindeman/feature-MattLindeman
+aaf1e70 Create jbfile.txt
+1f6273c create less or more file
+6010168 Add gitlog and history.txt
 a0ad4e1 Add another new file
 70e23eb Fix Readme to actually be bold
 6ce989c Resolve a merge with features where new_features needed fixing
